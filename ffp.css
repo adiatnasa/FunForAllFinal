@@ -1,0 +1,112 @@
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Outer Services Group */
+.services-group {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: var(--wp--preset--spacing--50);
+    padding-bottom: var(--wp--preset--spacing--50);
+  }
+  
+  /* Spacer with height preset */
+  .spacer-20 {
+    height: var(--wp--preset--spacing--20);
+  }
+  
+  /* Services Columns Gap */
+  .services-columns {
+    gap: var(--wp--preset--spacing--40) var(--wp--preset--spacing--30);
+  }
+  
+  /* Service Item Headings */
+  .is-service-name {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Service Descriptions */
+  .is-service-description {
+    margin-bottom: 1rem;
+  }
+  
+  /* Service Link Styling */
+  .is-service-link a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .is-service-link a:hover {
+    text-decoration: underline;
+  }
+  .random-fact-section {
+    background: #ffffff;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .random-fact-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .random-fact-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #66a6ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .random-fact-section button:hover {
+    background-color: #4d8be8;
+  }
+  
+  #randomFact {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    min-height: 100vh;
+  }
+  

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini-Games</title>
+  <!-- Link to your external CSS file -->
+  <link rel="stylesheet" href="MGP.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="FFP.html">Fun Facts</a></li>
+      <li><a href="jokes.html">Jokes</a></li>
+      <li><a href="minigames.html">Minigames</a></li>
+      <li><a href="forum.html">Feedback</a></li>
+    </ul>
+  </nav>  
+
+  <div class="container">
+    <!-- Main Heading -->
+    <h1>Mini-Games</h1>
+    
+    <!-- Subheading -->
+    <h2>Games</h2>
+    
+    <!-- Three-column layout -->
+    <div class="three-column">
+      
+      <!-- Column 1 -->
+      <div class="column">
+        <h3>Reaction Timer</h3>
+        <p>
+          Test how fast you can click when the screen changes color! 
+          Play until you get the lowest score possible!
+        </p>
+        <p><a href="javascript:void(0);" onclick="showGame('reaction')">Play</a></p>
+      </div>
+      
+      <!-- Column 2 -->
+      <div class="column">
+        <h3>Guess the Number</h3>
+        <p>
+          Try to guess a random number in the fewest attempts possible. 
+          Lowest score wins! Play against your friends for more fun!
+        </p>
+        <p><a href="javascript:void(0);" onclick="showGame('guess')">Play</a></p>
+      </div>
+      
+      <!-- Column 3 -->
+      <div class="column">
+        <h3>Trivia</h3>
+        <p>
+          See how well you know general trivia! Get quizzed on general trivia. 
+          The higher your score, the smarter you are—play with friends or against them!
+        </p>
+        <p><a href="javascript:void(0);" onclick="showGame('trivia')">Play</a></p>
+      </div>
+      
+    </div>
+  </div>
+  <div id="game-area"></div>
+
+<script src="minigames.js"></script>
+
+
+</body>
+</html>

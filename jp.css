@@ -1,0 +1,75 @@
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Base Setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  min-height: 100vh;
+}
+
+/* Center only the jokes box */
+.joke-gallery {
+  margin: 50px auto; /* Add top margin so navbar stays on top */
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 900px;
+  width: 90%;
+  text-align: center;
+}
+
+
+.joke-gallery h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #333;
+}
+
+/* Each Joke Card */
+.joke-card {
+  background: #f0f8ff;
+  border: 2px solid #66a6ff;
+  border-radius: 12px;
+  margin: 15px 0;
+  padding: 20px;
+  font-size: 20px;
+  color: #333;
+  transition: 0.3s;
+}
+
+.joke-card:hover {
+  background: #d0eaff;
+  transform: scale(1.03);
+}

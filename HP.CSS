@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+
+/* Outer container spacing and center alignment */
+.wp-block-group.alignfull.is-style-section-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* Main "Welcome" heading */
+.wp-block-heading.alignwide.has-text-align-center.is-pricing-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Wrapper to center content and set a max width */
+.wp-block-group.alignwide {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Columns container: flex layout with spacing */
+.wp-block-columns.alignwide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Default and Section-3 column styles */
+.wp-block-column.is-style-default,
+.wp-block-column.is-style-section-3 {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 40px;
+  background-color: #fff;
+}
+
+/* Spacing within each column's group */
+.wp-block-column.is-style-default .wp-block-group,
+.wp-block-column.is-style-section-3 .wp-block-group {
+  gap: 24px;
+}
+
+/* Subheading for each column */
+.wp-block-heading.has-text-align-center.is-pricing-tier-name.has-small-font-size {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Paragraph text in each column */
+.wp-block-paragraph.is-pricing-tier-price.has-xx-large-font-size {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons container */
+.wp-block-buttons {
+  margin-top: 1rem;
+}
+
+/* Full-width buttons */
+.wp-block-button.has-custom-width.wp-block-button__width-100.is-style-fill {
+  width: 100%;
+}
+
+/* Button link styling */
+.wp-block-button__link.wp-element-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.wp-block-button__link.wp-element-button:hover {
+  background-color: #0056b3;
+}

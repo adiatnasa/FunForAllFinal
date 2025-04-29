@@ -1,0 +1,89 @@
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  min-height: 100vh;
+}
+/* Center the page content with some padding */
+.container {
+  max-width: 1200px; /* Adjust to your preferred max width */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Main heading style */
+h1 {
+  font-size: 2rem;    /* Increase or decrease as needed */
+  margin-bottom: 0.5rem;
+}
+
+/* Subheading style */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem; /* Creates space before columns */
+}
+
+/* Three-column layout */
+.three-column {
+  display: flex;
+  gap: 2rem; /* Space between columns */
+  justify-content: space-between;
+}
+
+/* Individual column styling */
+.column {
+  flex: 1;    /* Each column takes equal width */
+  text-align: left; /* Ensures left alignment */
+}
+
+/* Column heading style */
+.column h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph style */
+.column p {
+  margin-bottom: 1rem;
+}
+
+/* Optional link styling */
+.column a {
+  color: #007BFF;
+  text-decoration: none;
+}
+.column a:hover {
+  text-decoration: underline;
+}
